@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head></head>
+
+    </head>
+    <body bgcolor="#green" >
+
+        <title> this is a first quiz  </title>
+        <p1  style="color:red "font-size:200px">  <font size="+1">  <b>click  here for the description of the quiz this is about html page   </p1>
+        <a href="https://en.wikipedia.org/wiki/United_States">learn about america</a>
+
+      
+ 
+        <p>  1. who is the current  president of usa <p> 
+                
+
+                
+                <p onclick="myFunction1()">     a.  Donald j trump</p>
+                <p onclick="myFunction2()">     b.   jorge masvadel</p>
+                <p onclick="myFunction3()">     c.   coner mragrager</p>
+                <p id="demo"></p>
+                
+                 
+
+           <br> 
+
+        <p> 2. capital city  of usa </p> 
+        <p onclick="myFunction4()">a. Wasington dc</p>
+        <p onclick="myFunction5()">b. new york</p>
+        <p onclick="myFunction6()">c. Los Angles </p>
+        
+        <p id="demo1"></p>
+  
+    <br>
+     <p> 3.which is the image  is  white house  </p> 
+     <p > <img src="i1.jpg" alt="building" width="100" height="100"  onclick="myFunction7()">
+      <img  id ="32"  src="i2.jpg" alt="building" width="100" height="100" onclick="myFunction8()"> 
+      <img onclick="myFunction9()" src="i3.jpg" alt="building" width="100" height="100"> </p>
+      <p id="demo2"></p>
+     <br>
+
+ <form action="/action_page.php">
+
+ <br>
+   
+ <input  onclick="myFunction()"id="reset" type="reset" value="Reset">
+ 
+   
+  </form>
+
+  <title> this is first quiz</title> 
+  <script>
+   
+function myFunction1() {
+  document.getElementById("demo").innerHTML = "corret!";
+}
+function myFunction2() {
+  document.getElementById("demo").innerHTML = "incorret!";
+}
+function myFunction3() {
+  document.getElementById("demo").innerHTML = "incorret!";
+}
+function myFunction4() {
+  document.getElementById("demo1").innerHTML = "correct!";
+}
+function myFunction5() {
+  document.getElementById("demo1").innerHTML = "incorret!";
+}
+function myFunction6() {
+  document.getElementById("demo1").innerHTML = "incorret!";
+}
+function myFunction7() {
+  document.getElementById("demo2").innerHTML = "incorret!";
+}
+function myFunction8() {
+  document.getElementById("demo2").innerHTML = "corret!";
+}
+function myFunction9() {
+  document.getElementById("demo2").innerHTML = "incorret!";
+}
+
+   function myFunction() {
+  document.getElementById("demo").innerHTML = "";
+  document.getElementById("demo1").innerHTML = "";
+  document.getElementById("demo2").innerHTML = "";
+
+  
+}  
+
+
+
+      </script>
+
+
+    </body>
+
+</head>
+            
